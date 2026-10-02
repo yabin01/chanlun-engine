@@ -1,0 +1,26 @@
+# 构建产物
+out/
+
+# 备份与草稿
+*.bak
+*.orig
+*.rej
+
+# 抓取中间件
+data/batch_*.json
+data/err*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 一次性网格搜索脚本（含陈旧副本 + 个人绝对路径，不发布）
+tune_bi.py
